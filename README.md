@@ -5,6 +5,43 @@ _Update notes for [Ring Robots](https://play.google.com/store/apps/details?id=co
 What changed between builds, written for testers. The demo is the same package as the full
 game with the demo flag on; it ends after the Tin Man and shows the rest locked.
 
+## 1.2.0 (build 5) — 1 October 2026
+
+Fire modes, wheels that turn, Scrap Docks rebuilt, a new icon, and five balance changes from play.
+
+**New**
+
+- **Fire modes.** Hold one of your machines in a fight to switch it between focus fire (every
+  gun on one target) and independent fire (each turret picks its own). A prompt at the top
+  says what changed and a ring mark shows which machines are independent. Each machine's
+  default is set on its style tab in the garage.
+- **Manual style.** A fight style that never moves on its own: it holds where it stands or
+  where you drag it, and fires at what it can see.
+- **Wheels and tracks move.** Treads scroll and wheels spin on every wheeled or tracked hull
+  drawn large enough to read it.
+- **Scrap Docks looks like a dock.** Container stacks, a quay with water beyond it, cranes,
+  bollards and crates, in its own cold steel and sodium light.
+- **Hits read as what hit you.** Sparks, scorches, flame, acid and EMP each land differently.
+- **A new icon and feature graphic**, and the launcher icon on your phone changes with them.
+- **HOW TO PLAY** is bigger and in the game's own style.
+
+**Balance, from play**
+
+- Siege Mortar: reach 440 to 520, and it scatters around its aim point like a real mortar.
+- Drones dodge half of ordinary shots and a quarter of beams; point defence still swats them.
+- A charging weapon bleeds its charge instead of losing it all when the target is lost. The
+  Lighthouse boss bleeds faster so the level stays beatable.
+- The Carrier boss holds its rifle's reach instead of rushing the line.
+- Flashpoint is nine flame machines with an anchor.
+
+**Fixed**
+
+- Title-screen machines no longer overlap on a desktop window.
+- Options notes no longer run past the scroll bar.
+- RESET CAMPAIGN PROGRESS offers the tutorial again.
+- Walls on the fortified levels meet cleanly at corners and edges, and read the same from
+  either side.
+
 ## 1.1.0 (build 4) — 29 September 2026
 
 **New**
