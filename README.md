@@ -5,6 +5,34 @@ _Update notes for [Ring Robots](https://play.google.com/store/apps/details?id=co
 What changed between builds, written for testers. The demo is the same package as the full
 game with the demo flag on; it ends after the Tin Man and shows the rest locked.
 
+## 1.3.0 (build 6) — 1 October 2026
+
+A new flak gun, the Lighthouse boss with its own beam, slower treads, and the fixes from the second bug hunt.
+
+**New**
+
+- **Hailstorm.** A medium-mount flak gun that fires real rounds at incoming shots and bursts
+  them in the air. It swats volleys and drones; a mortar shell lobbed over it gets through.
+  Priced at 300. The demo shows it on the shelf as FULL GAME.
+- **PRIVACY POLICY and WHAT'S NEW** rows in Options, each opening the page in your browser.
+
+**Balance, from play**
+
+- The Lighthouse's charge now bleeds at the standard rate in your hands. The boss turrets on
+  that level carry their own beam, the Lighthouse Beacon, which bleeds faster so the level
+  stays beatable.
+- Treads and wheels turn a quarter slower, so the hull reads as rolling rather than racing.
+
+**Fixed**
+
+- Tapping NEXT in the tutorial while the fight's music panel was open only closed the panel
+  and left the fight paused until a second tap. One tap now.
+- The fire-mode prompt at the top of a fight could sit on top of a boss's health bar, or
+  under the music panel. It now yields to both.
+- The "now playing" card could cover the Campaign footer and the garage's DEPLOY SQUAD bar.
+- A Scrap Torch that was still burning at the instant a fight ended could keep humming over
+  the results screen.
+
 ## 1.2.0 (build 5) — 1 October 2026
 
 Fire modes, wheels that turn, Scrap Docks rebuilt, a new icon, and five balance changes from play.
