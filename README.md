@@ -5,6 +5,52 @@ _Update notes for [Ring Robots](https://play.google.com/store/apps/details?id=co
 What changed between builds, written for testers. The demo is the same package as the full
 game with the demo flag on; it ends after the Tin Man and shows the rest locked.
 
+## 1.4.0 (build 7) — 5 October 2026
+
+A rewards screen worth reading, a fight with some punch, and the back half of the ladder costs a little less and pays a little less.
+
+**New**
+
+- **The results screen.** Under the rosters: your purse itemised (prize, a flawless bonus,
+  repairs), every part you fielded with its level and the experience this fight added, and
+  a third panel that shows the part you just won with a FIT IT NOW tap, or the next rung
+  with its fee and prize, or the fight's honours.
+- **Flawless bonus.** Win without losing a machine and the prize pays 10% more.
+- **Juice.** Heavy hits and wrecks shove the view, a wreck flashes and sounds heavier, and
+  the kill that decides a fight gets a beat before the banner. MOTION in Options turns all
+  of it down to none.
+- **The main menu card shows your campaign machine** and the campaign shop's unclaimed count,
+  not the skirmish garage's.
+- **The reward card shows the part itself**, drawn as the garage draws it.
+- **Options in two columns** on a phone or desktop, so the whole list is a page or two.
+- **Four-side fights fit on a phone.** The team rows pack around the buttons instead of
+  stacking down the screen, and the camera opens on every squad.
+
+**Balance, from the rig**
+
+- EMP Projector is 350 bolts, down from 380.
+- Prizes and fees from Rust Budget to Ash and Iron are 15% lower, so a finished campaign
+  banks less spare money. Nothing before The Warden changes.
+
+**Fixed**
+
+- FIGHT AGAIN from a campaign result now charges the rung's entry fee, as the ladder always
+  did; if you cannot pay it, you land on the ladder with the rung selected.
+- The campaign opens on the rung you are at, not First Blood.
+- The level card's rules, squad and footer no longer print over each other on a phone, and
+  every number carries its thousands separator.
+- NEXT UP and the ladder say how far short of a fee you are.
+- The arena picture on the campaign card no longer sits on the arena's name.
+- A long machine name on the results roster no longer runs into its numbers, and a four-side
+  roster keeps every team name in full.
+- The ♪ button no longer sits on the first team row, and a wide player name shrinks its row
+  rather than running under the buttons.
+- Drones no longer pull the camera toward wherever they fly.
+- Winning a module with no machine that can carry it no longer lets it be fitted anyway.
+- Updating from an older build shows what changed, once, on the main menu, and WHAT'S NEW in
+  Options opens the same card any time, with a link on to the public notes.
+- The three buttons under a result share one weight, so FIT IT NOW stands out on a reward.
+
 ## 1.3.0 (build 6) — 1 October 2026
 
 A new flak gun, the Lighthouse boss with its own beam, slower treads, and the fixes from the second bug hunt.
