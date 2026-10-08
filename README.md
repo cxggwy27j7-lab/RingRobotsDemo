@@ -5,6 +5,37 @@ _Update notes for [Ring Robots](https://play.google.com/store/apps/details?id=co
 What changed between builds, written for testers. The demo is the same package as the full
 game with the demo flag on; it ends after the Tin Man and shows the rest locked.
 
+## 1.5.0 (build 8) — 8 October 2026
+
+Screens arrive faster on a budget phone, a GRAPHICS setting sharpens the desktop, the demo signs off with a thanks card, and a title league waits past The Furnace.
+
+**New**
+
+- **The Belt.** Six title fights after The Furnace, each a replay of a back-half boss for a
+  flat prize at an entry fee of three quarters of it: Reigning Warden, Mirror, Carrier,
+  Keeper, Ash and Iron and Furnace. Each clear earns a title; all six earn CHAMPION. Nothing
+  before The Furnace changes, and a player who never enters loses nothing.
+- **Faster screens.** Every screen now builds once on the way in, after its save has
+  loaded, and measures its text without drawing it. On a budget phone the pause between
+  screens is a quarter to a half of what it was.
+- **A GRAPHICS setting** in Options: AUTO, LOW, MEDIUM, HIGH. HIGH draws at your screen's
+  real pixels, which is the fix for the soft look on a desktop; LOW draws fewer pixels for a
+  phone that needs the frames. AUTO picks HIGH on a desktop and MEDIUM on a phone, then
+  watches your first fight once and drops a step if the frames cannot keep up, telling you so.
+- **The demo's last word.** Past the Tin Man the demo now shows a short thanks card with a
+  SEND FEEDBACK button that opens your mail app, instead of a paragraph in the level card.
+
+**Balance, from the rig**
+
+- The Belt takes about forty percent of the spare money a finished campaign used to bank,
+  most of it at the Reigning Mirror, which arrives at a 28% win rate and is meant to.
+
+**Fixed**
+
+- The campaign ladder opens with your current rung on screen, not scrolled off the top.
+- The results screen draws its winnings and honours on the first frame rather than a
+  blink later.
+
 ## 1.4.0 (build 7) — 5 October 2026
 
 A rewards screen worth reading, a fight with some punch, and the back half of the ladder costs a little less and pays a little less.
