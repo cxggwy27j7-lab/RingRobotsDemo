@@ -3,7 +3,39 @@ _Update notes for [Ring Robots](https://play.google.com/store/apps/details?id=co
 # Ring Robots — update notes
 
 What changed between builds, written for testers. The demo is the same package as the full
-game with the demo flag on; it ends after the Tin Man and shows the rest locked.
+game with the demo flag on; it ends after the Siege (the end of the Main Card, from 1.6.0; it was the Tin Man before)
+and shows the rest locked.
+
+## 1.6.0 (build 9) — 14 October 2026
+
+The demo opens the next circuit, the game tells its story, and a save code carries your progress.
+
+**New**
+
+- **Six screens redrawn.** The campaign ladder shows each fight's arena, opposition, purse
+  and reward on one card with TO THE RING as the button; the challenges screen says what is
+  done this week and which of your machines qualify; the profile has your record, your titles
+  lit by league, and the story so far; Options is six groups of plain rows with a line under
+  each saying what it does; the skirmish screen shows both sides as thumbnails over the arena;
+  HOW TO PLAY has a drawn diagram on every point.
+- **A story.** Scrap City, Season 3. Short cut scenes when you arrive somewhere new: the first
+  time a card opens, the first time a boss is on the ladder, and the Furnace. Tap to advance,
+  SKIP any time, and a STORY page on your profile to read them again.
+- **A save code.** EXPORT SAVE in Options copies one code for all your progress; IMPORT SAVE
+  on another copy of the game pastes it back. It is how a demo save carries into the full game.
+- **PILOT.** Drive one of your own machines yourself: a PILOT chip on the deploy bar picks
+  which. A stick on the left, a button per weapon on the right, LOCK to pick a target; tap a
+  weapon twice to keep it firing until the target falls. The view pulls in close on your
+  machine. Options has a PILOT CONTROLS row: BUTTONS, or TWIN STICK, a second stick that aims
+  and fires every gun where you push it. WASD, number keys and the mouse on a desktop. The
+  rest of your squad fights as it always has.
+- **The demo now runs to the end of the Main Card:** fifteen levels, two bosses.
+
+**Balance, from the rig**
+
+- Flak Curtain's three Siege Frames carry a Scrim Field each; they were the only machines in
+  the Circuit without a shield. Long guns beat it as before; a short-range squad has a harder
+  time of it.
 
 ## 1.5.0 (build 8) — 8 October 2026
 
