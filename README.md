@@ -6,6 +6,35 @@ What changed between builds, written for testers. The demo is the same package a
 game with the demo flag on; it ends after the Siege (the end of the Main Card, from 1.6.0; it was the Tin Man before)
 and shows the rest locked.
 
+## 1.7.0 (build 10) — 16 October 2026
+
+Six walking mechs enter the ring, the results card says what you have left, feedback can carry game info if you choose, and the status bar stays out of the way.
+
+**Fixed**
+
+- **The status bar on some phones.** On a Nothing Phone 3a Pro the clock and battery stayed on
+  screen over the game. The app now hides the system bars the way current Android asks, and the
+  camera notch strip is used rather than blacked out. A swipe from the edge still shows the bars
+  for a moment.
+- **The results card shows your wallet.** The purse now ends with a WALLET line: the bolts you
+  have after the prize, the bonus and the repairs, in the campaign and in a challenge.
+
+**New**
+
+- **Walkers.** Six mechs on legs: the Strider, Centurion and Titan, and the legion's Velites,
+  Hastati and Triarii. The legs walk where you send them and the body turns to aim, twisting
+  only so far before the legs must follow, so a walker can be flanked. Arms carry light and
+  medium guns that swing a little; shoulders carry fixed guns that point where the body does.
+  Three new fights put them against you: Hinge Point in the Circuit, The Testudo in the
+  Proving, Stampede in the Burn. In the demo they show on the shelf, locked.
+- **Guns drawn to size.** A light gun is drawn smaller than a heavy one on every hull, so you
+  see more of the machine under it.
+- **Feedback with game info, if you want.** SEND FEEDBACK in Options has an INFO chip; with it
+  on, the mail draft includes your build, device, screen, graphics and control settings, how far
+  you are up the ladder and the game's last few error messages, for you to read before you send.
+  Off by default, never your save, and nothing is sent unless you send it. The demo's thanks card
+  has the same choice.
+
 ## 1.6.0 (build 9) — 14 October 2026
 
 The demo opens the next circuit, the game tells its story, and a save code carries your progress.
