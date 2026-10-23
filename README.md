@@ -6,6 +6,18 @@ What changed between builds, written for testers. The demo is the same package a
 game with the demo flag on; it ends after the Siege (the end of the Main Card, from 1.6.0; it was the Tin Man before)
 and shows the rest locked.
 
+## 1.9.1 (build 13) — 24 October 2026
+
+Beta testers can now unlock the base game and each pack with their own codes.
+
+**New**
+
+- **Tester codes.** If you are testing the beta, you will be sent your own codes: one for the base
+  game and one for each pack. In Options, tap BETA on the IMPORT SAVE row and enter your BASE
+  GAME code first, then any pack codes; each unlocks that part of the game on your device. The
+  unlocks last for the test and end when the game launches. Codes are personal, so please do not
+  share them.
+
 ## 1.9.0 (build 12) — 24 October 2026
 
 Your campaign is safe when you empty a mount, every part in the garage can be compared before you fit it, and the map editor draws the fight's own art.
