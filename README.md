@@ -6,6 +6,112 @@ What changed between builds, written for testers. The demo is the same package a
 game with the demo flag on; it ends after the Siege (the end of the Main Card, from 1.6.0; it was the Tin Man before)
 and shows the rest locked.
 
+## 1.9.0 (build 12) — 24 October 2026
+
+Your campaign is safe when you empty a mount, every part in the garage can be compared before you fit it, and the map editor draws the fight's own art.
+
+**Fixed**
+
+- **A lost campaign.** Emptying a weapon mount or a module slot could leave a save the game
+  could not read, and the next screen that saved wrote a fresh campaign over it: 700 bolts and
+  nothing else. The save now reads back with the gap in it. If the game ever meets a save it
+  cannot read again, it keeps a copy aside rather than writing over it, and RESEARCH refuses to
+  spend until it is sorted.
+- **The garage stuck on frames.** After BUY A FRAME, picking a machine or a slot, or going to
+  RESEARCH and back, now returns the shelf to that machine's parts.
+- **The main menu's scroll bar** can be seen now, with an arrow at each end that lights when
+  there is more to scroll to.
+
+**New**
+
+- **Compare before you fit.** Every part on the shelf, bought or already in your workshop,
+  opens a card that sets it against the part on that mount: each stat NOW and NEW, green with an
+  arrow up where the new part is better and red with an arrow down where it is worse. A part you
+  own says CONFIRM, a part you would buy says BUY & FIT, and CANCEL changes nothing.
+- **The map editor draws real fight art.** Walls, blocks, barrels, fire, acid, vents, barriers
+  and decor are drawn with the arena's own sprites for its terrain set, so a map looks in the
+  editor the way it will in a fight. Decor on your own maps now sits in the middle of its cell in
+  a fight too, where it used to sit half a cell off.
+- **Credits.** Sammy, the MVP of testers, found the lost-campaign bug above and asked for the
+  compare card. Thank you.
+
+## 1.8.0 (build 11) — 21 October 2026
+
+Two new bikes join the garage, the map editor is reworked, and research, weight limits, objectives and the pack campaigns arrive.
+
+**Fixed**
+
+- **The map editor, reworked.** Every tool is an icon tile, always on screen. A drag paints
+  every cell it crosses, with no gaps on a fast stroke. Tap a piece to select it, then drag it to
+  move it; any other drag paints. One finger paints even when zoomed, two fingers pan. UNDO goes
+  all the way back and REDO returns. A new map starts with its spawn lines drawn, the check runs
+  as you edit, and PROBLEMS lists what is wrong in full. The map's size, grid and terrain live
+  under SETTINGS. Your map is kept as a draft when you leave, and NEW starts fresh.
+- **The status bar, again.** On a phone that kept its clock and battery over the game after 1.7.0,
+  the app now declares fullscreen at the window itself and re-hides the bars whenever the system
+  shows them. If yours still shows the bar, send feedback with INFO on so we can see where it sits.
+
+**New**
+
+- **Courier and Despatch.** Research Bikes II to unlock the Courier, then Bikes III for the
+  Despatch. Each adds a faster, heavier bike with a different weapon loadout.
+- **The Buggy at the start.** The Buggy now appears on the free Wheeled I root, alongside the
+  Trooper.
+- **Research.** The shop is earned a branch at a time. Every fight pays research points, shown
+  on the results card, and a RESEARCH page off the garage and the ladder sells nodes like LASER
+  II or TRACKED CHASSIS III, each opening the parts of that class and tier. Locked parts on the
+  shelf say which node they wait on; tapping one takes you there. An existing save keeps every
+  part it owns and everything it could already have bought.
+- **Weight limits.** Every frame has a base weight, and a machine's tonnage is that plus what
+  it carries, shown on its card and on the deploy bar. Two fights cap your side's tonnage:
+  Weigh-In in the Proving and Kindling in the Burn. A lightly equipped heavy counts as a medium.
+- **Objectives.** Three new fights are won by holding ground or beating a clock, not only by
+  wrecking everything: The Hill in the Circuit, Three Points in the Proving, Against the Clock in
+  the Burn. Zones show on the floor, a bar on the HUD shows who holds what, and a tap on a zone
+  sends a machine to it. The arena editor can place zones and the map code carries them.
+- **The Legion.** A walker campaign of its own, fifteen fights across three leagues, every one
+  on legs: a maze, a hill, points, a clock, two weight limits, a hunt, a line to break and a
+  Triarii pair at the end. It opens from a card on the campaign screen once you own The Legion
+  and have researched Walkers I, keeps its own wallet and progress, and shares your garage and
+  research. You pilot your lead walker by default.
+- **Research sells ways to fight.** Beyond parts, the tree now has bounded upgrades for light
+  frames, medium frames, light guns and walker legs, a few percent at a time and never past a
+  quarter, and two doctrines: Flanking, and Style Tuning, which opens an engagement-range slider
+  on a style. Focus fire stays free.
+- **Speed is worth something.** A shot can now miss a machine crossing its line, more often for
+  slow guns and fast targets, so a light hull at full tilt sheds about a third of a mortar's fire
+  and almost none of a railgun's. A machine standing still is hit as before.
+- **The grapple** (in The Legion): a Pin for light hulls, an Anchor for mediums and a Hook for
+  heavies. A line holds a heavier machine still while your friends hit it, or reels a lighter one
+  in; it parts under fire, at a wall, at the end of its hold, or to point defence.
+- **The Hive.** The Drone Pack now has a campaign of its own. Nine fights in three leagues for
+  flights rather than guns: every machine you bring carries a drone bay, and the enemy is built to
+  be flown over or built to shoot a flight down. It opens from a second card beside the Legion's
+  on the campaign screen once you own the Drone Pack and have researched a drone bay.
+- **War Games.** The missions pack is now a campaign of its own: twenty-four missions in four
+  leagues, each with a rule beyond the kill. It opens from the PACKS button on the campaign screen
+  once you own the pack and have cleared The Hill. It uses your own garage, keeps its own bolts, and
+  has its own titles and a three-part story, ending at The Gauntlet.
+- **Every ladder is one tap away.** The campaign screen has a switcher for the campaign, the
+  Legion, the Hive and War Games, each its own list that remembers where you were, and it is there
+  in the free game too. The first fight of each pack ladder is a free trial: the Legion and the
+  Hive lend you a machine of their own to fight it, beside your own garage, and a first clear pays
+  like any other.
+- **One purchase for everything.** UNLOCK EVERYTHING sits on the thanks card beside UNLOCK THE
+  BASE GAME: one payment that opens the base game and every expansion, the ones that exist and the
+  ones still to come. It brings a gold finish for your machines, switched in Options by the GOLD
+  chip on the MOTION row, and the title PATRON.
+- **The research page has a rail** down the left, like the campaign's: WEAPONS, FRAMES, ARMOUR,
+  MODULES, UPGRADES and DOCTRINE, each its own list that remembers where you were.
+
+**Changed**
+
+- **A quieter title screen.** The tagline has been removed.
+- **Locks say what opens them.** A locked part on the shelf reads BASE GAME, THE LEGION or THE
+  DRONE PACK instead of FULL GAME, ahead of the full game and its packs arriving on the store.
+- **4X fight speed** is part of the base game; the free game runs at 1X and 2X.
+- **The Hangar** module joins the drone pack with the drone bays, so it shows locked in the free game.
+
 ## 1.7.0 (build 10) — 16 October 2026
 
 Six walking mechs enter the ring, the results card says what you have left, feedback can carry game info if you choose, and the status bar stays out of the way.
