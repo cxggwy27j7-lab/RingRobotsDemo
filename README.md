@@ -6,6 +6,52 @@ What changed between builds, written for testers. The demo is the same package a
 game with the demo flag on; it ends after the Siege (the end of the Main Card, from 1.6.0; it was the Tin Man before)
 and shows the rest locked.
 
+## 1.10.0 (build 15) · 28 October 2026
+
+A proper welcome for new players, a card for every pack showing what is in it, and a polish pass across the screens.
+
+**New**
+
+- **Your name and colour.** A fresh install asks what to call you and which of the four team
+  colours to wear, before the first fight. Skip it and the game picks a name for you; both can
+  be changed in PROFILE any time.
+- **A clearer start.** The main menu marks where to begin, the tutorial now walks you from the
+  garage to TO THE RING, and it teaches how to call off an order.
+- **Tips in the fight.** The line under a fight now cycles through short tips that fit the fight
+  you are in.
+- **First-visit hints.** RESEARCH, the pack ladders, the first objective fight, weekly
+  challenges, the arena editor and piloting a walker each explain themselves once. SHOW HINTS
+  AGAIN in Options brings them back.
+- **How to Play, corrected.** Every card was checked against the game: hardpoints, module slots,
+  orders, PILOT and more now say what the game actually does.
+
+- **Expansions.** Tap a locked pack on the ladder rail, or a pack's tag on the garage shelf, for
+  a card showing everything inside: its fights and leagues, its machines with their art, and
+  its weapons or rules. SEE EVERYTHING opens the new EXPANSIONS page, from the main menu or
+  Options, with every pack side by side. The first fight of every pack is still free. Buying
+  arrives with the store at launch; testers unlock with their codes in Options → BETA.
+- **One name per level.** War Games' clock mission is now called Shot Clock, so the Legion keeps
+  Double Time to itself. Your clears and titles carry over.
+
+**Fixed**
+
+- **Sound after you leave.** Locking the phone or switching away now silences the game, and
+  the music carries on from the same moment when you come back.
+- **Cut-off text.** Labels that ended in "…" with room to spare now use the room: the garage's
+  slots and shelf, the campaign footer and its PILOT chip, the loaner notice, results, the story
+  panel and the skirmish rules. PILOT's machine readout stays on screen.
+- **Sharper art.** The garage's big machine is no longer stretched past its own pixels, the
+  title screen's backdrop is drawn at your screen's resolution, and thin lines in the fight land
+  on whole pixels.
+- **Easier to read.** The hint under a fight and TAP TO START are brighter. Endless and Tower
+  Defence read their Core as HULL, ARMOUR and SHIELD, and REPAIR ALL looks like a button in every
+  state.
+- **Tidier screens.** Bars and markers no longer pile up when machines bunch together; YOUR SQUAD
+  has a backing plate; the SCRAP MACHINE button sits clear of the garage's stage ring; every help
+  card has a heading; the What's New card no longer shows a stale "Copied" message underneath it.
+- **Android.** The game now draws edge to edge the way Android 15 and 16 expect, and stays in
+  landscape on tablets and foldables.
+
 ## 1.9.1 (build 13) — 24 October 2026
 
 Beta testers can now unlock the base game and each pack with their own codes.
@@ -17,6 +63,9 @@ Beta testers can now unlock the base game and each pack with their own codes.
   GAME code first, then any pack codes; each unlocks that part of the game on your device. The
   unlocks last for the test and end when the game launches. Codes are personal, so please do not
   share them.
+- **Stream-safe music.** Streaming or uploading the game? Tap SAFE on the MUSIC row in Options
+  and the shuffle skips any track that can trigger a copyright claim on YouTube or Twitch,
+  switching away from one that is playing at once.
 
 ## 1.9.0 (build 12) — 24 October 2026
 
