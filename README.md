@@ -6,7 +6,34 @@ What changed between builds, written for testers. The demo is the same package a
 game with the demo flag on; it ends after the Siege (the end of the Main Card, from 1.6.0; it was the Tin Man before)
 and shows the rest locked.
 
-## 1.10.0 (build 15) · 28 October 2026
+## 1.10.1 (build 17) · 28 October 2026
+
+Six new War Games missions, the drone pack renamed The Hive, and a lighter download.
+
+**New**
+
+- **Protect the VIP and escort the convoy.** War Games gains six missions, bringing it to 30:
+  Precious Cargo, Depot Watch, Quayside Convoy, Ring of Steel, Cinder Passage and Last Mile. Keep
+  a VIP alive, or get a convoy across the arena while the enemy tries to stop it.
+- **The Hive.** The drone pack now goes by the name of its campaign, matching The Legion and War
+  Games. Your clears, parts and codes are untouched.
+- **Rules at a glance.** Every campaign level card now shows its rules as chips, the same way the
+  weekly challenges do: how many machines you can bring, a clock, the enemy's level, or the
+  mission's goal.
+
+**Fixed**
+
+- **Ambushes you can see.** Enemies that arrive partway through a mission, like the convoy
+  ambushes and timed waves, are now drawn. Before, they fought without appearing.
+- **Quayside Convoy, tidied.** The convoy's route now runs through the middle of the repair
+  pad, and both turrets have moved off the pad and the scenery they overlapped.
+
+- **Smaller download.** The music is about a quarter lighter with no audible change on a phone,
+  and art for modes this build does not offer is no longer included.
+- **The radio card stays out of the way.** The now-playing card places itself clear of buttons,
+  the boss bar and the ♪ panel, and stays hidden when there is no room.
+
+## 1.10.0 (build 16) · 28 October 2026
 
 A proper welcome for new players, a card for every pack showing what is in it, and a polish pass across the screens.
 
