@@ -6,7 +6,7 @@ What changed between builds, written for testers. The demo is the same package a
 game with the demo flag on; it ends after the Siege (the end of the Main Card, from 1.6.0; it was the Tin Man before)
 and shows the rest locked.
 
-## 1.10.1 (build 17) · 28 October 2026
+## 1.10.1 (build 18) · 28 October 2026
 
 Six new War Games missions, the drone pack renamed The Hive, and a lighter download.
 
@@ -23,11 +23,12 @@ Six new War Games missions, the drone pack renamed The Hive, and a lighter downl
 
 **Fixed**
 
+- **No more white bar.** A white strip with the game's name across the top of the screen,
+  new in 1.10.0, is gone.
 - **Ambushes you can see.** Enemies that arrive partway through a mission, like the convoy
   ambushes and timed waves, are now drawn. Before, they fought without appearing.
 - **Quayside Convoy, tidied.** The convoy's route now runs through the middle of the repair
   pad, and both turrets have moved off the pad and the scenery they overlapped.
-
 - **Smaller download.** The music is about a quarter lighter with no audible change on a phone,
   and art for modes this build does not offer is no longer included.
 - **The radio card stays out of the way.** The now-playing card places itself clear of buttons,
