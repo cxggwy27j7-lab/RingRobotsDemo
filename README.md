@@ -6,6 +6,97 @@ What changed between builds, written for testers. The demo is the same package a
 game with the demo flag on; it ends after the Siege (the end of the Main Card, from 1.6.0; it was the Tin Man before)
 and shows the rest locked.
 
+## 1.11.0 (build 20) · 14 November 2026
+
+Draw your own Tower Defence and Endless maps and share them as a code, plus a sweep of fixes for small phones, silent taps and one-tap mistakes.
+
+**New**
+
+- **Draw a Tower Defence map.** In Tower Defence's map list, YOURS now has DRAW A MAP. It opens
+  the arena editor on a small starter map: drag the lane, move the Core, add tower pads, then
+  press PLAY. Anything that would break a run shows in the problems list as you draw; tap a
+  problem to jump to it.
+- **Draw an Endless map.** The same for Endless: place the Core, where your squad and hired
+  machines stand, where the enemy comes in, tower pads and trap slots.
+- **Share a map as a code.** SHARE gives a short code. Paste one from another player into
+  either mode's map list, or into Skirmish, and it lands in the right place.
+- **Your maps are practice.** A map you drew pays no bolts or CELLS and counts toward nothing;
+  it keeps your best wave. A run on your own Endless map is not saved if you close the game.
+  Waves and bosses are the game's own, so the map is the only thing you are designing.
+- **Tower Defence and Endless are here to stay.** Both modes are in every build from now on.
+
+**Changed**
+
+- **A second tap for the taps that cost you.** Buying a bay slot, selling a spare part, NEW in
+  the arena editor, leaving a fight that is still going, RETIRE in Endless and SELL on a tower
+  now arm on the first tap and act on the second. Tap anywhere else, or wait three seconds, and
+  nothing happens. A fight that is already over still leaves on one tap.
+- **Small phones.** Buttons are full size on phones the size of an iPhone SE and on shorter
+  Android screens. Where a screen ran out of room it now reflows or scrolls instead of
+  shrinking the buttons.
+- **Sound where there was none.** Every press in Tower Defence and Endless makes a sound, and a
+  refused one sounds different. So does dragging a machine to open ground in a fight, calling
+  an order off, and tapping a story beat you have not reached.
+
+**Fixed**
+
+- **Research counts everywhere.** Weight research now counts when the deploy bar and a weekly
+  challenge decide whether a machine is legal, and its bonuses reach the fight.
+- **The Android back button.** Back closes the sheet or box in front of you before it leaves
+  the screen, and it keeps working after the phone sleeps or you switch apps.
+- **Boxes that typed for you.** Tapping outside the name box, the paste box or IMPORT SAVE now
+  cancels it. It used to submit whatever was in the box.
+- **Rematch, once.** REMATCH on the results screen locks the moment you press it, so a second
+  press cannot start or pay for a second fight.
+- **Endless says why.** A trap, power or repair the game refuses now tells you the reason, and
+  a run you come back to keeps the squad you picked.
+- **Tower Defence and Endless after a run.** Back on a finished run goes to the map list or the
+  menu instead of pausing.
+- **League cards count their fights.** The Main Card, the Circuit and the Burn each said "five
+  fights" on a card showing seven, eight and nine.
+- **Credits.** Options now has a CREDITS section for the sound, fonts and tools the game is
+  built with, beside the music.
+- **The Finals title** reads GRAND CHAMPION.
+
+**Tell us**
+
+- Send us the code of a map you drew. We would like to play it.
+- Did any button need a second tap that should not have, or the other way round?
+- On a small phone, is anything still cut off or too small to press?
+
+## 1.10.2 (build 19) · 3 November 2026
+
+Two new modes to test, Tower Defence and Endless, plus a harder back third on the campaign, 25 new research tracks, and machines that stop backing into walls.
+
+**New**
+
+- **Tower Defence.** A new mode on the main menu: build towers on pads beside a lane and hold
+  the Fortress Core against waves and bosses. Five maps, live building between and during
+  waves, and powers to call in. Tell us which map felt unfair and which wave ended your run.
+- **Endless.** Bring your own garage squad and defend the Core against waves that keep
+  growing, with a boss every few waves. Repair with scrap between waves; a run saves as you go.
+- **A research lab for both.** Spend CELLS on tower parts and Core upgrades, or rent a boost
+  for a single run. It scrolls and reads like the campaign's research page.
+- **Expansions bite back.** War Games now sends more and better-armed enemies for leaner
+  prizes, and The Hive and War Games each set a weight limit for your squad, as The Legion
+  does.
+- **The late card bites.** From The Mirror on, opponents fight with parts above level 20, up to
+  level 30, and many late fights bring bigger or better-built squads. The Mirrors' copies can now
+  out-level your own machines. Prize money is leaner from the middle of the card onward, so bolts
+  are worth spending carefully. Tell us how it feels: too hard, too easy, or about right.
+- **More to research.** 25 new three-rank tracks for your parts, bringing the tree to 133 nodes.
+  UPGRADES can now be filtered by part family and by ALL, FITTED or AVAILABLE. A few research
+  names were shortened so they fit a phone card.
+
+**Fixed**
+
+- **No more overlap on notched phones.** On the campaign screen, the ladder buttons no longer
+  sit on top of the level list, and the bolts and the buttons along the bottom keep clear of the
+  camera cut-out. Thanks to the testers who sent screenshots.
+- **Out of the corner.** A machine boxed in against a wall now picks an open spot and drives to
+  it, instead of reversing into the wall with its wheels spinning.
+- **The radio card stays clear of your profile** on the main menu.
+
 ## 1.10.1 (build 18) · 28 October 2026
 
 Six new War Games missions, the drone pack renamed The Hive, and a lighter download.
