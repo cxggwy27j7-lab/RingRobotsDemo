@@ -6,12 +6,15 @@ What changed between builds, written for testers. The demo is the same package a
 game with the demo flag on; it ends after the Siege (the end of the Main Card, from 1.6.0; it was the Tin Man before)
 and shows the rest locked.
 
-## 1.11.0 (build 20) · 14 November 2026
+## 1.11.0 (build 20) · 15 November 2026
 
-Draw your own Tower Defence and Endless maps and share them as a code, plus a sweep of fixes for small phones, silent taps and one-tap mistakes.
+The store opens, and you can draw your own Tower Defence and Endless maps and share them as a code, plus a sweep of fixes for small phones, silent taps and one-tap mistakes.
 
 **New**
 
+- **The store is open.** The full game, each of the three expansions and EVERYTHING can now
+  be bought through Google Play, each once, for good. RESTORE PURCHASES in Options asks Google
+  Play again on a new phone. A tester code still unlocks what it always did.
 - **Draw a Tower Defence map.** In Tower Defence's map list, YOURS now has DRAW A MAP. It opens
   the arena editor on a small starter map: drag the lane, move the Core, add tower pads, then
   press PLAY. Anything that would break a run shows in the problems list as you draw; tap a
@@ -43,7 +46,9 @@ Draw your own Tower Defence and Endless maps and share them as a code, plus a sw
 - **Research counts everywhere.** Weight research now counts when the deploy bar and a weekly
   challenge decide whether a machine is legal, and its bonuses reach the fight.
 - **The Android back button.** Back closes the sheet or box in front of you before it leaves
-  the screen, and it keeps working after the phone sleeps or you switch apps.
+  the screen, and it keeps working after the phone sleeps or you switch apps. On Android 16
+  and later it no longer closes the game from any screen.
+- **A smaller download.** The app is about 2.5 MB smaller to install.
 - **Boxes that typed for you.** Tapping outside the name box, the paste box or IMPORT SAVE now
   cancels it. It used to submit whatever was in the box.
 - **Rematch, once.** REMATCH on the results screen locks the moment you press it, so a second
@@ -60,6 +65,7 @@ Draw your own Tower Defence and Endless maps and share them as a code, plus a sw
 
 **Tell us**
 
+- If you are a licence tester, buy something and tell us whether it unlocked straight away.
 - Send us the code of a map you drew. We would like to play it.
 - Did any button need a second tap that should not have, or the other way round?
 - On a small phone, is anything still cut off or too small to press?
