@@ -6,6 +6,38 @@ What changed between builds, written for testers. The demo is the same package a
 game with the demo flag on; it ends after the Siege (the end of the Main Card, from 1.6.0; it was the Tin Man before)
 and shows the rest locked.
 
+## 1.11.1 (build 21) · 15 November 2026
+
+Switchback is free to play in Tower Defence, the main menu keeps moving while you scroll, and the busiest maps cost the game far less work.
+
+**New**
+
+- **Switchback is free.** Tower Defence's first map now plays without the base game. The
+  other four maps, and drawing, pasting or playing your own Tower Defence maps, come with
+  the base game.
+- **The game's own splash.** It opens on the Ring Robots icon instead of a white screen.
+
+**Changed**
+
+- **Lighter on the busiest maps.** A machine with no straight way to its target checked
+  for a breakable gate every frame, even on maps without one. That check now costs almost
+  nothing: a fight on The Labyrinth does about a seventh of the work it did, and The
+  Redoubt about half. Nothing about how a fight plays has changed.
+- **Google Play Games on PC.** On a PC the game draws at the window's full resolution
+  instead of stretching a phone-sized picture, and treats the mouse as a mouse.
+
+**Fixed**
+
+- **The main menu keeps moving.** Scrolling the menu used to freeze the robot, the ring
+  and the news wire until you stopped.
+- **Nudging a marker in the map editor.** A slow, careful drag of a marker could delete
+  it. Only a hold that stays still removes one now.
+
+**Tell us**
+
+- On Google Play Games for PC, is the picture sharp, and is the text big enough to read?
+- Is Switchback a fair taste of Tower Defence?
+
 ## 1.11.0 (build 20) · 15 November 2026
 
 The store opens, and you can draw your own Tower Defence and Endless maps and share them as a code, plus a sweep of fixes for small phones, silent taps and one-tap mistakes.
